@@ -49,7 +49,7 @@ const SignUpForm = () => {
                             <Form.Control
                                 className={styles.Input}
                                 type="text"
-                                placeholder="username"
+                                placeholder="Username"
                                 name="username"
                                 value={username}
                                 onChange={handleChange}
