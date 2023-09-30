@@ -18,7 +18,8 @@ import {
   useProfileData,
   useSetProfileData,
 } from "../../contexts/ProfileDataContext";
-import { Button, Image } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 import Post from "../posts/Post";
 import { fetchMoreData } from "../../utils/utils";
 import InfiniteScroll from "react-infinite-scroll-component";
